@@ -11,6 +11,7 @@ public static class NavHistory
     public static void Push(GameObject[] willShow, GameObject[] willHide)
     {
         if (willShow == null && willHide == null) return;
+        //打包的对象存入Entry
         stack.Push(new Entry { willShow = willShow, willHide = willHide });
     }
 
@@ -33,5 +34,5 @@ public static class NavHistory
         public GameObject[] willShow;
         public GameObject[] willHide;
     }
-    
+
 }
