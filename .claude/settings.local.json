@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(ls -la *.png *.jpg)",
+      "Bash(python3)",
+      "Bash(grep -n \"m_Name:.*4\\\\\\\\\\\\\\\\u8D44\\\\\\\\\\\\\\\\u6599\" d:/UnityProject/B-SXMK/Assets/Scenes/SampleScene.unity)"
+    ]
+  }
+}
