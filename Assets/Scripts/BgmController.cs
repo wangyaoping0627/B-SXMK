@@ -20,6 +20,7 @@ public class BgmController : MonoBehaviour
     /// 由其他导航脚本在切换页面后调用
     /// 规则：在二级目录 → 播放音乐，其他页面 → 停止音乐
     /// </summary>
+
     public void CheckBgm()
     {
         bool isAtSecondLevel = false;
